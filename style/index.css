@@ -1,0 +1,243 @@
+body * {
+  font-family: "Exo", sans-serif;
+}
+
+.baner__wrapper {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.baner #video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.baner h1 {
+  word-spacing: 4px;
+  font-size: 58px;
+  max-width: 700px;
+}
+.baner .button .btn-danger {
+  width: 200px !important;
+  letter-spacing: 2px;
+  padding: 12px 0;
+}
+.baner p {
+  padding-top: 15px;
+}
+.baner__content {
+  height: 100vh;
+}
+
+.newdesign {
+  padding: 155px 0 135px 0 !important;
+  background-image: url("./../images/3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.newdesign div h6 {
+  color: #ff6d6d;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.newdesign div h2 {
+  font-size: 44px;
+  color: #333;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+.newdesign div h2 .dots {
+  color: #ff6d6d;
+}
+
+.features {
+  background: url("./../images/41.png") no-repeat top left, url("./../images/42.png") no-repeat top right, #f6f5f3 url("./../images/43.png") no-repeat bottom right;
+  padding: 130px 0 180px 0;
+}
+.features div h6 {
+  color: #ff6d6d;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.features div h2 {
+  font-size: 44px;
+  padding: 0 0 90px 0;
+}
+.features div .row .features__content {
+  padding: 0 15px;
+}
+.features div .row .features__content img {
+  margin-bottom: 20px;
+}
+
+.resposive {
+  background: url("./../images/9.png") no-repeat left;
+  padding: 90px 0;
+}
+.resposive div h6 {
+  color: #ff6d6d;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.resposive div h2 {
+  font-size: 44px;
+  color: #333;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+.resposive div h2 .dots {
+  color: #ff6d6d;
+}
+
+.cofounder {
+  background-image: url("./../images/10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 93px 0 73px 0;
+}
+.cofounder__content h4 {
+  color: white;
+  padding-top: 20px;
+}
+.cofounder__content h6 {
+  color: #ff6d6d;
+}
+.cofounder__content p {
+  color: #96979a;
+  text-align: center;
+  font-style: italic;
+  padding: 30px 30px 70px;
+}
+.cofounder .logo img {
+  opacity: 50%;
+}
+
+.awesome {
+  padding: 100px 0 0 0;
+}
+.awesome div h6 {
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+.awesome div p {
+  max-width: 650px;
+  padding: 35px 0 80px;
+}
+
+.overdesigners {
+  padding: 60px 0;
+  background: #323969;
+}
+.overdesigners p {
+  padding-top: 50px;
+  color: lightgray;
+}
+.overdesigners p a {
+  color: lightgray;
+}
+.overdesigners div h6 {
+  color: #ff6d6d;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.overdesigners div h2 {
+  color: white;
+  font-size: 44px;
+  text-align: center;
+}
+.overdesigners div div {
+  padding: 40px 15px 0;
+}
+.overdesigners div div input {
+  background: #474d78;
+  border: lightgrey solid 1px;
+  border-radius: 3px;
+  padding: 11px;
+  width: 100%;
+  color: white;
+}
+.overdesigners div div input::placeholder {
+  color: white;
+  text-transform: uppercase;
+}
+.overdesigners div div button {
+  width: 100%;
+  padding: 11px 0;
+  background: #ff6d6d;
+  border: none;
+  box-shadow: 2px 2px 5px 0 #333;
+}
+.overdesigners div div .button__wrapper {
+  position: relative;
+}
+.overdesigners div div .button__wrapper:before {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: -15px;
+  color: white;
+  content: "30 days free trial for all.";
+  letter-spacing: 1px;
+  background: url("./../images/18.png") left no-repeat;
+  padding-bottom: 15px;
+}
+
+.footer__wrapper {
+  background: url("./../images/20.png") right no-repeat;
+  padding: 50px 0 90px;
+}
+.footer__wrapper div p {
+  margin: 0;
+  font-size: 14px;
+}
+.footer__wrapper div address {
+  margin: 0;
+  font-size: 14px;
+}
+.footer__wrapper div a {
+  font-size: 24px;
+  margin: 0;
+  padding: 1px;
+}
+.footer__wrapper div li a {
+  font-size: 14px;
+}
+.footer__wrapper div .news__wrpper {
+  padding-top: 5px;
+}
+.footer__wrapper div .news__wrpper .button__wrapper {
+  margin: 25px 0 0 0;
+}
+.footer__wrapper div .news__wrpper .button__wrapper input {
+  background: lightgray;
+  border: 1px solid grey;
+  padding: 11px;
+  border-radius: 3px;
+}
+.footer__wrapper div .news__wrpper .button__wrapper button {
+  background: url("./../images/25.png");
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 0;
+  margin-left: -8px;
+}
+.footer__wrapper div .news__wrpper .button__wrapper .footer__logo img {
+  padding: 15px;
+}
+
+/*# sourceMappingURL=index.css.map */
