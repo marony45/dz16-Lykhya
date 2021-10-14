@@ -1,0 +1,50 @@
+.footer__wrapper {
+  background: url("./../images/20.png") right no-repeat;
+  padding: 50px 0 90px;
+  div {
+    p {
+      margin: 0;
+      font-size: 14px;
+    }
+    address {
+      margin: 0;
+      font-size: 14px;
+    }
+    a {
+      font-size: 24px;
+      margin: 0;
+      padding: 1px;
+    }
+    li {
+      a {
+        font-size: 14px;
+      }
+    }
+    .news__wrpper {
+      padding-top: 5px;
+      .button__wrapper {
+      margin: 25px 0 0 0;
+        input {
+          background: lightgray;
+          border: 1px solid grey;
+          padding: 11px;
+          border-radius: 3px;
+        }
+        button {
+          background: url("./../images/25.png");
+          width: 50px;
+          height: 50px;
+          border: none;
+          padding: 0;
+          margin-left: -8px;
+        }
+        .footer__logo {
+          img {
+            padding: 15px;
+          }
+        }
+      }
+    }
+
+  }
+}

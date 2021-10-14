@@ -1,0 +1,24 @@
+.newdesign {
+  padding: 155px 0 135px 0 !important;
+  background-image: url("./../images/3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  div{
+    h6 {
+      color: $red;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 44px;
+      color: #333;
+      padding-bottom: 40px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      .dots {
+        color: $red;
+
+      }
+    }
+  }
+}

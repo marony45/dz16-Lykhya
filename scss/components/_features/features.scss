@@ -1,0 +1,25 @@
+.features {
+  background: url("./../images/41.png") no-repeat top left, url("./../images/42.png") no-repeat top right, #f6f5f3 url("./../images/43.png") no-repeat bottom right;
+
+  padding: 130px 0 180px 0;
+  div {
+    h6 {
+      color: $red;
+      text-transform: uppercase;
+      font-size: 20px;
+      letter-spacing: 3px;
+    }
+    h2 {
+      font-size: 44px;
+      padding: 0 0 90px 0;
+    }
+    .row {
+      .features__content  {
+        padding: 0 15px;
+        img {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

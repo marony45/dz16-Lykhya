@@ -1,0 +1,23 @@
+.resposive {
+  background: url("./../images/9.png") no-repeat left;
+  padding: 90px 0 ;
+  div{
+    h6 {
+      color: $red;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+    }
+    h2 {
+      font-size: 44px;
+      color: #333;
+      padding-bottom: 40px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      .dots {
+        color: $red;
+
+      }
+    }
+  }
+}
