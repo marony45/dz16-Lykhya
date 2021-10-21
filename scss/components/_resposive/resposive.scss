@@ -1,7 +1,13 @@
 .resposive {
-  background: url("./../images/9.png") no-repeat left;
+  background: url("./../images/31.jpg"), linear-gradient(to right, $red 50%,#ffffff 50%);
   padding: 90px 0 ;
+  background-position: center;
+  background-repeat: no-repeat;
+  .retangle {
+
+  }
   div{
+
     h6 {
       color: $red;
       letter-spacing: 2px;

@@ -11,16 +11,17 @@ body * {
   top: 0;
   bottom: 0;
 }
-.baner #video {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  position: absolute;
+.baner .bgdiv {
+  background-image: url("./../images/33.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
   left: 0;
-  right: 0;
   top: 0;
-  bottom: 0;
+  position: fixed;
   z-index: -1;
+  width: 100vw;
+  height: 100vh;
 }
 .baner h1 {
   word-spacing: 4px;
@@ -40,13 +41,13 @@ body * {
 }
 
 .newdesign {
+  position: relative;
+  overflow: hidden;
   padding: 155px 0 135px 0 !important;
-  background-image: url("./../images/3.png");
-  background-repeat: no-repeat;
-  background-position: right;
+  background-color: white;
 }
 .newdesign div h6 {
-  color: #ff6d6d;
+  color: #ff8a8a;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -58,15 +59,25 @@ body * {
   word-spacing: 3px;
 }
 .newdesign div h2 .dots {
-  color: #ff6d6d;
+  color: #ff8a8a;
+}
+.newdesign .triangle {
+  background-size: 50% 100%;
+  background-image: url("./../images/3.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(50% + 183px);
 }
 
 .features {
-  background: url("./../images/41.png") no-repeat top left, url("./../images/42.png") no-repeat top right, #f6f5f3 url("./../images/43.png") no-repeat bottom right;
+  background: url("./../images/41.png") no-repeat calc(50% - 550px) top, url("./../images/42.png") no-repeat calc(50% + 600px) top, #f6f5f3 url("./../images/43.png") no-repeat calc(50% + 600px) bottom;
   padding: 130px 0 180px 0;
 }
 .features div h6 {
-  color: #ff6d6d;
+  color: #ff8a8a;
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: 3px;
@@ -83,11 +94,13 @@ body * {
 }
 
 .resposive {
-  background: url("./../images/9.png") no-repeat left;
+  background: url("./../images/31.jpg"), linear-gradient(to right, #ff8a8a 50%, #ffffff 50%);
   padding: 90px 0;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .resposive div h6 {
-  color: #ff6d6d;
+  color: #ff8a8a;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -99,7 +112,7 @@ body * {
   word-spacing: 3px;
 }
 .resposive div h2 .dots {
-  color: #ff6d6d;
+  color: #ff8a8a;
 }
 
 .cofounder {
@@ -113,7 +126,7 @@ body * {
   padding-top: 20px;
 }
 .cofounder__content h6 {
-  color: #ff6d6d;
+  color: #ff8a8a;
 }
 .cofounder__content p {
   color: #96979a;
@@ -127,9 +140,10 @@ body * {
 
 .awesome {
   padding: 100px 0 0 0;
+  background-color: white;
 }
 .awesome div h6 {
-  color: #ff6d6d;
+  color: #ff8a8a;
   text-transform: uppercase;
 }
 .awesome div p {
@@ -149,7 +163,7 @@ body * {
   color: lightgray;
 }
 .overdesigners div h6 {
-  color: #ff6d6d;
+  color: #ff8a8a;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
@@ -177,7 +191,7 @@ body * {
 .overdesigners div div button {
   width: 100%;
   padding: 11px 0;
-  background: #ff6d6d;
+  background: #ff8a8a;
   border: none;
   box-shadow: 2px 2px 5px 0 #333;
 }
@@ -197,7 +211,7 @@ body * {
 }
 
 .footer__wrapper {
-  background: url("./../images/20.png") right no-repeat;
+  background: url("./../images/32.jpg") center no-repeat, linear-gradient(to right, #ffffff 50%, #ff8a8a 50%);
   padding: 50px 0 90px;
 }
 .footer__wrapper div p {

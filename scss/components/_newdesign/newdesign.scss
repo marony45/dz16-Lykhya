@@ -1,8 +1,10 @@
 .newdesign {
+  position: relative;
+  overflow: hidden;
   padding: 155px 0 135px 0 !important;
-  background-image: url("./../images/3.png");
-  background-repeat: no-repeat;
-  background-position: right;
+
+  background-color: white;
+
   div{
     h6 {
       color: $red;
@@ -20,5 +22,16 @@
 
       }
     }
+  }
+  .triangle {
+    background-size: 50% 100%;
+    background-image: url("./../images/3.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(50% + 183px);
+
   }
 }

@@ -1,5 +1,5 @@
 .features {
-  background: url("./../images/41.png") no-repeat top left, url("./../images/42.png") no-repeat top right, #f6f5f3 url("./../images/43.png") no-repeat bottom right;
+  background: url("./../images/41.png") no-repeat calc(50% - 550px) top, url("./../images/42.png") no-repeat calc(50% + 600px) top, #f6f5f3 url("./../images/43.png") no-repeat calc(50% + 600px) bottom;
 
   padding: 130px 0 180px 0;
   div {
