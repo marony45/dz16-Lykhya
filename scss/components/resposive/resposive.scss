@@ -1,0 +1,29 @@
+.resposive {
+  background: url("./../images/31.jpg"), linear-gradient(to right, $red 50%,#ffffff 50%);
+  padding: 90px 0 ;
+  background-position: center;
+  background-repeat: no-repeat;
+  .retangle {
+
+  }
+  div{
+
+    h6 {
+      color: $red;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+    }
+    h2 {
+      font-size: 44px;
+      color: #333;
+      padding-bottom: 40px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      .dots {
+        color: $red;
+
+      }
+    }
+  }
+}
