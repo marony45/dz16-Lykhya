@@ -1,5 +1,3 @@
-
-
 .baner {
   &__wrapper {
     width: 100%;
@@ -10,11 +8,9 @@
     top: 0;
     bottom: 0;
   }
-
   .bgdiv {
     background-image: url("./../images/33.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend %norepeatcover;
     background-position: center bottom;
     left: 0;
     top: 0;
@@ -22,7 +18,6 @@
     z-index: -1;
     width: 100vw;
     height: 100vh;
-
   }
   h1 {
     word-spacing: 4px;
@@ -34,7 +29,6 @@
       width: 200px !important;
       letter-spacing: 2px;
       padding: 12px 0;
-
     }
   }
   p {

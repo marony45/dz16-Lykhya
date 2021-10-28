@@ -7,20 +7,10 @@
 
   div{
     h6 {
-      color: $red;
-      letter-spacing: 2px;
-      text-transform: uppercase;
+      @extend %h6;
     }
     h2 {
-      font-size: 44px;
-      color: #333;
-      padding-bottom: 40px;
-      letter-spacing: 1px;
-      word-spacing: 3px;
-      .dots {
-        color: $red;
-
-      }
+      @extend %h2;
     }
   }
   .triangle {

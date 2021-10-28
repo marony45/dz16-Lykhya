@@ -1,0 +1,36 @@
+%h6 {
+  color: $red;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+%mar0font14 {
+  margin: 0;
+  font-size: 14px;
+}
+
+%footera {
+  text-decoration: none;
+  color: black;
+}
+
+%norepeatcover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+%h2 {
+  font-size: 44px;
+  color: #333;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  .dots {
+    color: $red;
+  }
+}
+
+%whitecenter {
+  text-align: center;
+  color: $white;
+}

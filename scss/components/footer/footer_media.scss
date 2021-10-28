@@ -1,6 +1,6 @@
 @media (min-width: $breakpointLg) {
   .footer__wrapper {
-    background:  url("./../images/32.jpg") center no-repeat;
+    background:  url("./../images/32.jpg") center no-repeat, linear-gradient(45deg, #ffffff 50%, $red 50%);
   }
 }
 

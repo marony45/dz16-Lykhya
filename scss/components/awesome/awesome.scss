@@ -3,8 +3,7 @@
   background-color: white;
   div {
     h6 {
-      color: $red;
-      text-transform: uppercase;
+      @extend %h6;
     }
     p {
       max-width: 650px;

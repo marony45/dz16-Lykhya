@@ -1,0 +1,9 @@
+@mixin h6($fntsize) {
+  font-size: $fntsize;
+  @extend %h6;
+}
+
+@mixin footerlink($fnsize) {
+  font-size: $fnsize;
+  @extend %footera
+}

@@ -1,7 +1,6 @@
 .cofounder {
   background-image: url("./../images/10.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  @extend %norepeatcover;
   padding: 93px 0 73px 0;
   &__content {
     h4 {
