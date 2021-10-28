@@ -1,0 +1,7 @@
+@media (max-width: $breakpointLg) {
+  .button__wrapper {
+    &:before {
+      top: 0px!important;
+    }
+  }
+}

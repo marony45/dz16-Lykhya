@@ -8,3 +8,23 @@ label {
   display: none;
 }
 
+@media(max-width: $breakpointXl) {
+  .container {
+    max-width: $breakpointLg;
+  }
+}
+@media(max-width: $breakpointLg) {
+  .container {
+    max-width: $breakpointMd;
+  }
+}
+@media(max-width: $breakpointMd) {
+  .container {
+    max-width: $breakpointSm;
+  }
+}
+@media(max-width: $breakpointSm) {
+  .container {
+    max-width: 100%;
+  }
+}

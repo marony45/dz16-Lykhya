@@ -1,0 +1,19 @@
+@media (min-width: $breakpointLg) {
+  .footer__wrapper {
+    background:  url("./../images/32.jpg") center no-repeat;
+  }
+}
+
+@media (max-width: $breakpointLg) {
+  .footer__wrapper {
+    div {
+      h4 {
+        text-align: center;
+      }
+      .button__wrapper {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

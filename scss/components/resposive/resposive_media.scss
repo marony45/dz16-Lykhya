@@ -1,0 +1,14 @@
+@media (min-width: $breakpointXl) {
+  .resposive {
+    background: url("./../images/31.jpg"), linear-gradient(45deg, $red 50%,#ffffff 50%);
+    padding: 90px 0 ;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: $breakpointMd) {
+  .mac{
+    display: none;
+  }
+}
